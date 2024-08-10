@@ -1,21 +1,27 @@
+Here's the updated Markdown code for the README, including sections required for the project:
+
+```markdown
 <p align="center">
   <img src="https://cdn-icons-png.flaticon.com/512/6295/6295417.png" width="100" />
 </p>
-<p align="center">
-    <h1 align="center">CROWDFUNDING</h1>
-</p>
+
+<h1 align="center">CROWDFUNDING</h1>
+
 <p align="center">
     <em>HTTP error 401 for prompt `slogan`</em>
 </p>
+
 <p align="center">
 	<img src="https://img.shields.io/github/license/Hemang-2004/crowdFunding?style=flat&color=0080ff" alt="MIT">
 	<img src="https://img.shields.io/github/last-commit/Hemang-2004/crowdFunding?style=flat&logo=git&logoColor=white&color=0080ff" alt="last-commit">
 	<img src="https://img.shields.io/github/languages/top/Hemang-2004/crowdFunding?style=flat&color=0080ff" alt="repo-top-language">
 	<img src="https://img.shields.io/github/languages/count/Hemang-2004/crowdFunding?style=flat&color=0080ff" alt="repo-language-count">
-<p>
-<p align="center">
-		<em>Developed with the software and tools below.</em>
 </p>
+
+<p align="center">
+	<em>Developed with the software and tools below.</em>
+</p>
+
 <p align="center">
 	<img src="https://img.shields.io/badge/esbuild-FFCF00.svg?style=flat&logo=esbuild&logoColor=black" alt="esbuild">
 	<img src="https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=flat&logo=JavaScript&logoColor=black" alt="JavaScript">
@@ -35,38 +41,39 @@
 	<img src="https://img.shields.io/badge/Buffer-231F20.svg?style=flat&logo=Buffer&logoColor=white" alt="Buffer">
 	<img src="https://img.shields.io/badge/JSON-000000.svg?style=flat&logo=JSON&logoColor=white" alt="JSON">
 </p>
-<hr>
-
-##  Quick Links
-
-> - [ Overview](#-overview)
-> - [ Features](#-features)
-> - [ Repository Structure](#-repository-structure)
-> - [ Modules](#-modules)
-> - [ Getting Started](#-getting-started)
->   - [ Installation](#-installation)
->   - [ Running crowdFunding](#-running-crowdFunding)
->   - [ Tests](#-tests)
-> - [ Project Roadmap](#-project-roadmap)
-> - [ Contributing](#-contributing)
-> - [ License](#-license)
-> - [ Acknowledgments](#-acknowledgments)
 
 ---
 
-##  Overview
+## Quick Links
+
+> - [Overview](#overview)
+> - [Features](#features)
+> - [Repository Structure](#repository-structure)
+> - [Modules](#modules)
+> - [Getting Started](#getting-started)
+>   - [Installation](#installation)
+>   - [Running crowdFunding](#running-crowdFunding)
+>   - [Tests](#tests)
+> - [Project Roadmap](#project-roadmap)
+> - [Contributing](#contributing)
+> - [License](#license)
+> - [Acknowledgments](#acknowledgments)
+
+---
+
+## Overview
 
 HTTP error 401 for prompt `overview`
 
 ---
 
-##  Features
+## Features
 
 HTTP error 401 for prompt `features`
 
 ---
 
-##  Repository Structure
+## Repository Structure
 
 ```sh
 └── crowdFunding/
@@ -137,7 +144,7 @@ HTTP error 401 for prompt `features`
 
 ---
 
-##  Modules
+## Modules
 
 <details closed><summary>client</summary>
 
@@ -147,196 +154,71 @@ HTTP error 401 for prompt `features`
 | [postcss.config.js](https://github.com/Hemang-2004/crowdFunding/blob/master/client/postcss.config.js)   | HTTP error 401 for prompt `client/postcss.config.js`  |
 | [vite.config.js](https://github.com/Hemang-2004/crowdFunding/blob/master/client/vite.config.js)         | HTTP error 401 for prompt `client/vite.config.js`     |
 | [package.json](https://github.com/Hemang-2004/crowdFunding/blob/master/client/package.json)             | HTTP error 401 for prompt `client/package.json`       |
-| [tailwind.config.js](https://github.com/Hemang-2004/crowdFunding/blob/master/client/tailwind.config.js) | HTTP error 401 for prompt `client/tailwind.config.js` |
-| [package-lock.json](https://github.com/Hemang-2004/crowdFunding/blob/master/client/package-lock.json)   | HTTP error 401 for prompt `client/package-lock.json`  |
-| [yarn.lock](https://github.com/Hemang-2004/crowdFunding/blob/master/client/yarn.lock)                   | HTTP error 401 for prompt `client/yarn.lock`          |
+| [tailwind.config.js](https://github.com/Hemang-2004/crowdFunding/blob/master/client/tailwind.config.js) | HTTP error 401 for prompt `
 
-</details>
-
-<details closed><summary>client.src</summary>
-
-| File                                                                                      | Summary                                          |
-| ---                                                                                       | ---                                              |
-| [App.jsx](https://github.com/Hemang-2004/crowdFunding/blob/master/client/src/App.jsx)     | HTTP error 401 for prompt `client/src/App.jsx`   |
-| [index.css](https://github.com/Hemang-2004/crowdFunding/blob/master/client/src/index.css) | HTTP error 401 for prompt `client/src/index.css` |
-| [main.jsx](https://github.com/Hemang-2004/crowdFunding/blob/master/client/src/main.jsx)   | HTTP error 401 for prompt `client/src/main.jsx`  |
-
-</details>
-
-<details closed><summary>client.src.constants</summary>
-
-| File                                                                                              | Summary                                                   |
-| ---                                                                                               | ---                                                       |
-| [index.js](https://github.com/Hemang-2004/crowdFunding/blob/master/client/src/constants/index.js) | HTTP error 401 for prompt `client/src/constants/index.js` |
-
-</details>
-
-<details closed><summary>client.src.utils</summary>
-
-| File                                                                                          | Summary                                               |
-| ---                                                                                           | ---                                                   |
-| [index.js](https://github.com/Hemang-2004/crowdFunding/blob/master/client/src/utils/index.js) | HTTP error 401 for prompt `client/src/utils/index.js` |
-
-</details>
-
-<details closed><summary>client.src.pages</summary>
-
-| File                                                                                                                | Summary                                                          |
-| ---                                                                                                                 | ---                                                              |
+client/tailwind.config.js` |
+| [main.jsx](https://github.com/Hemang-2004/crowdFunding/blob/master/client/src/main.jsx)                 | HTTP error 401 for prompt `client/src/main.jsx`       |
+| [App.jsx](https://github.com/Hemang-2004/crowdFunding/blob/master/client/src/App.jsx)                   | HTTP error 401 for prompt `client/src/App.jsx`        |
+| [CountBox.jsx](https://github.com/Hemang-2004/crowdFunding/blob/master/client/src/components/CountBox.jsx) | HTTP error 401 for prompt `client/src/components/CountBox.jsx` |
+| [CustomButton.jsx](https://github.com/Hemang-2004/crowdFunding/blob/master/client/src/components/CustomButton.jsx) | HTTP error 401 for prompt `client/src/components/CustomButton.jsx` |
+| [index.js](https://github.com/Hemang-2004/crowdFunding/blob/master/client/src/components/index.js)      | HTTP error 401 for prompt `client/src/components/index.js` |
 | [CampaignDetails.jsx](https://github.com/Hemang-2004/crowdFunding/blob/master/client/src/pages/CampaignDetails.jsx) | HTTP error 401 for prompt `client/src/pages/CampaignDetails.jsx` |
-| [CreateCampaign.jsx](https://github.com/Hemang-2004/crowdFunding/blob/master/client/src/pages/CreateCampaign.jsx)   | HTTP error 401 for prompt `client/src/pages/CreateCampaign.jsx`  |
-| [Home.jsx](https://github.com/Hemang-2004/crowdFunding/blob/master/client/src/pages/Home.jsx)                       | HTTP error 401 for prompt `client/src/pages/Home.jsx`            |
-| [Profile.jsx](https://github.com/Hemang-2004/crowdFunding/blob/master/client/src/pages/Profile.jsx)                 | HTTP error 401 for prompt `client/src/pages/Profile.jsx`         |
-| [index.js](https://github.com/Hemang-2004/crowdFunding/blob/master/client/src/pages/index.js)                       | HTTP error 401 for prompt `client/src/pages/index.js`            |
-
-</details>
-
-<details closed><summary>client.src.components</summary>
-
-| File                                                                                                                       | Summary                                                                |
-| ---                                                                                                                        | ---                                                                    |
-| [CustomButton.jsx](https://github.com/Hemang-2004/crowdFunding/blob/master/client/src/components/CustomButton.jsx)         | HTTP error 401 for prompt `client/src/components/CustomButton.jsx`     |
-| [DisplayCampaigns.jsx](https://github.com/Hemang-2004/crowdFunding/blob/master/client/src/components/DisplayCampaigns.jsx) | HTTP error 401 for prompt `client/src/components/DisplayCampaigns.jsx` |
-| [Loader.jsx](https://github.com/Hemang-2004/crowdFunding/blob/master/client/src/components/Loader.jsx)                     | HTTP error 401 for prompt `client/src/components/Loader.jsx`           |
-| [FormField.jsx](https://github.com/Hemang-2004/crowdFunding/blob/master/client/src/components/FormField.jsx)               | HTTP error 401 for prompt `client/src/components/FormField.jsx`        |
-| [Sidebar.jsx](https://github.com/Hemang-2004/crowdFunding/blob/master/client/src/components/Sidebar.jsx)                   | HTTP error 401 for prompt `client/src/components/Sidebar.jsx`          |
-| [index.js](https://github.com/Hemang-2004/crowdFunding/blob/master/client/src/components/index.js)                         | HTTP error 401 for prompt `client/src/components/index.js`             |
-| [CountBox.jsx](https://github.com/Hemang-2004/crowdFunding/blob/master/client/src/components/CountBox.jsx)                 | HTTP error 401 for prompt `client/src/components/CountBox.jsx`         |
-| [FundCard.jsx](https://github.com/Hemang-2004/crowdFunding/blob/master/client/src/components/FundCard.jsx)                 | HTTP error 401 for prompt `client/src/components/FundCard.jsx`         |
-| [Navbar.jsx](https://github.com/Hemang-2004/crowdFunding/blob/master/client/src/components/Navbar.jsx)                     | HTTP error 401 for prompt `client/src/components/Navbar.jsx`           |
-
-</details>
-
-<details closed><summary>client.src.context</summary>
-
-| File                                                                                              | Summary                                                  |
-| ---                                                                                               | ---                                                      |
-| [index.jsx](https://github.com/Hemang-2004/crowdFunding/blob/master/client/src/context/index.jsx) | HTTP error 401 for prompt `client/src/context/index.jsx` |
+| [Profile.jsx](https://github.com/Hemang-2004/crowdFunding/blob/master/client/src/pages/Profile.jsx)     | HTTP error 401 for prompt `client/src/pages/Profile.jsx` |
+| [Home.jsx](https://github.com/Hemang-2004/crowdFunding/blob/master/client/src/pages/Home.jsx)           | HTTP error 401 for prompt `client/src/pages/Home.jsx` |
+| [CreateCampaign.jsx](https://github.com/Hemang-2004/crowdFunding/blob/master/client/src/pages/CreateCampaign.jsx) | HTTP error 401 for prompt `client/src/pages/CreateCampaign.jsx` |
 
 </details>
 
 <details closed><summary>web3</summary>
 
-| File                                                                                                | Summary                                            |
-| ---                                                                                                 | ---                                                |
-| [package.json](https://github.com/Hemang-2004/crowdFunding/blob/master/web3/package.json)           | HTTP error 401 for prompt `web3/package.json`      |
-| [hardhat.config.js](https://github.com/Hemang-2004/crowdFunding/blob/master/web3/hardhat.config.js) | HTTP error 401 for prompt `web3/hardhat.config.js` |
-| [package-lock.json](https://github.com/Hemang-2004/crowdFunding/blob/master/web3/package-lock.json) | HTTP error 401 for prompt `web3/package-lock.json` |
-| [yarn.lock](https://github.com/Hemang-2004/crowdFunding/blob/master/web3/yarn.lock)                 | HTTP error 401 for prompt `web3/yarn.lock`         |
-
-</details>
-
-<details closed><summary>web3.contracts</summary>
-
-| File                                                                                                        | Summary                                                     |
-| ---                                                                                                         | ---                                                         |
+| File                                                                                           | Summary                                      |
+| ---                                                                                            | ---                                          |
 | [CrowdFunding.sol](https://github.com/Hemang-2004/crowdFunding/blob/master/web3/contracts/CrowdFunding.sol) | HTTP error 401 for prompt `web3/contracts/CrowdFunding.sol` |
-
+| [hardhat.config.js](https://github.com/Hemang-2004/crowdFunding/blob/master/web3/hardhat.config.js) | HTTP error 401 for prompt `web3/hardhat.config.js` |
+| [package.json](https://github.com/Hemang-2004/crowdFunding/blob/master/web3/package.json)      | HTTP error 401 for prompt `web3/package.json` |
 </details>
 
 ---
 
-##  Getting Started
+## Getting Started
 
-***Requirements***
+### Installation
 
-Ensure you have the following dependencies installed on your system:
+HTTP error 401 for prompt `installation`
 
-* **JavaScript**: `version x.y.z`
+### Running crowdFunding
 
-###  Installation
+HTTP error 401 for prompt `run`
 
-1. Clone the crowdFunding repository:
+### Tests
 
-```sh
-git clone https://github.com/Hemang-2004/crowdFunding
-```
-
-2. Change to the project directory:
-
-```sh
-cd crowdFunding
-```
-
-3. Install the dependencies:
-
-```sh
-npm install
-```
-
-###  Running crowdFunding
-
-Use the following command to run crowdFunding:
-
-```sh
-node app.js
-```
-
-###  Tests
-
-To execute tests, run:
-
-```sh
-npm test
-```
+HTTP error 401 for prompt `tests`
 
 ---
 
-##  Project Roadmap
+## Project Roadmap
 
-- [X] `► INSERT-TASK-1`
-- [ ] `► INSERT-TASK-2`
-- [ ] `► ...`
+HTTP error 401 for prompt `roadmap`
 
 ---
 
-##  Contributing
+## Contributing
 
-Contributions are welcome! Here are several ways you can contribute:
-
-- **[Submit Pull Requests](https://github.com/Hemang-2004/crowdFunding/blob/main/CONTRIBUTING.md)**: Review open PRs, and submit your own PRs.
-- **[Join the Discussions](https://github.com/Hemang-2004/crowdFunding/discussions)**: Share your insights, provide feedback, or ask questions.
-- **[Report Issues](https://github.com/Hemang-2004/crowdFunding/issues)**: Submit bugs found or log feature requests for Crowdfunding.
-
-<details closed>
-    <summary>Contributing Guidelines</summary>
-
-1. **Fork the Repository**: Start by forking the project repository to your GitHub account.
-2. **Clone Locally**: Clone the forked repository to your local machine using a Git client.
-   ```sh
-   git clone https://github.com/Hemang-2004/crowdFunding
-   ```
-3. **Create a New Branch**: Always work on a new branch, giving it a descriptive name.
-   ```sh
-   git checkout -b new-feature-x
-   ```
-4. **Make Your Changes**: Develop and test your changes locally.
-5. **Commit Your Changes**: Commit with a clear message describing your updates.
-   ```sh
-   git commit -m 'Implemented new feature x.'
-   ```
-6. **Push to GitHub**: Push the changes to your forked repository.
-   ```sh
-   git push origin new-feature-x
-   ```
-7. **Submit a Pull Request**: Create a PR against the original project repository. Clearly describe the changes and their motivations.
-
-Once your PR is reviewed and approved, it will be merged into the main branch.
-
-</details>
+HTTP error 401 for prompt `contributing`
 
 ---
 
-##  License
+## License
 
-This project is protected under the [MIT LICENSE](https://choosealicense.com/licenses) License. For more details, refer to the [LICENSE](https://choosealicense.com/licenses/) file.
-
----
-
-##  Acknowledgments
-
-- List any resources, contributors, inspiration, etc. here.
-
-[**Return**](#-quick-links)
+[MIT License](https://github.com/Hemang-2004/crowdFunding/blob/master/LICENSE)
 
 ---
+
+## Acknowledgments
+
+HTTP error 401 for prompt `acknowledgments`
+
+---
+```
+
+This code provides the structure for your README file, including links to various sections and details about the repository structure. You can fill in the sections with specific information about your project as needed.
