@@ -8,7 +8,7 @@
     <em>HTTP error 401 for prompt `slogan`</em>
 </p>
 <p align="center">
-	<img src="https://img.shields.io/github/license/Hemang-2004/crowdFunding?style=flat&color=0080ff" alt="license">
+	<img src="https://img.shields.io/github/license/Hemang-2004/crowdFunding?style=flat&color=0080ff" alt="MIT">
 	<img src="https://img.shields.io/github/last-commit/Hemang-2004/crowdFunding?style=flat&logo=git&logoColor=white&color=0080ff" alt="last-commit">
 	<img src="https://img.shields.io/github/languages/top/Hemang-2004/crowdFunding?style=flat&color=0080ff" alt="repo-top-language">
 	<img src="https://img.shields.io/github/languages/count/Hemang-2004/crowdFunding?style=flat&color=0080ff" alt="repo-language-count">
