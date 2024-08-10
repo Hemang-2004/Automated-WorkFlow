@@ -182,45 +182,5 @@ This project is a decentralized crowdfunding platform built on blockchain techno
         └── yarn.lock
 ```
 
-## Getting Started
 
-### Installation
 
-HTTP error 401 for prompt `installation`
-
-### Running crowdFunding
-
-HTTP error 401 for prompt `run`
-
-### Tests
-
-HTTP error 401 for prompt `tests`
-
----
-
-## Project Roadmap
-
-HTTP error 401 for prompt `roadmap`
-
----
-
-## Contributing
-
-HTTP error 401 for prompt `contributing`
-
----
-
-## License
-
-[MIT License](https://github.com/Hemang-2004/crowdFunding/blob/master/LICENSE)
-
----
-
-## Acknowledgments
-
-HTTP error 401 for prompt `acknowledgments`
-
----
-```
-
-This code provides the structure for your README file, including links to various sections and details about the repository structure. You can fill in the sections with specific information about your project as needed.
