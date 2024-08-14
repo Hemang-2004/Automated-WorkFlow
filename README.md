@@ -1,186 +1,61 @@
+# Automatisch - Open Source Zapier Alternative
 
-<p align="center">
-  <img src="https://cdn-icons-png.flaticon.com/512/6295/6295417.png" width="100" />
-</p>
+![Automatisch - Screenshot](https://user-images.githubusercontent.com/2501931/191562539-e42f6c34-03c7-4dc4-bcf9-7f9473a9c64f.png)
 
-<h1 align="center"> Decentralized Crowdfunding Platform</h1>
+🧐 Automatisch is a business automation tool that lets you connect different services like Twitter, Slack, and more to automate your business processes.
 
+💸 Automating your workflows doesn't have to be a difficult or expensive process. You also don't need any programming knowledge to use Automatisch.
 
-## Quick Links
+## Advantages
 
-> - [Overview](#overview)
-> - [Features](#features)
-> - [Usage](#usage)
-> - [Repository Structure](#repository-structure)
-> - [Modules](#modules)
-> - [Getting Started](#getting-started)
->   - [Installation](#installation)
->   - [Running crowdFunding](#running-crowdFunding)
->   - [Tests](#tests)
-> - [Project Roadmap](#project-roadmap)
-> - [Contributing](#contributing)
-> - [License](#license)
-> - [Acknowledgments](#acknowledgments)
+There are other existing solutions in the market, like Zapier and Integromat, so you might be wondering why you should use Automatisch.
 
----
+✅ One of the main benefits of using Automatisch is that it allows you to store your data on your own servers, which is essential for businesses that handle sensitive user information and cannot risk sharing it with external cloud services. This is especially relevant for industries such as healthcare and finance, as well as for European companies that must adhere to the General Data Protection Regulation (GDPR).
 
-## Overview
-This project is a decentralized crowdfunding platform built on blockchain technology. It allows users to create and contribute to crowdfunding campaigns without relying on intermediaries, ensuring transparency, security, and trust. The platform operates on smart contracts, enabling direct interaction between campaign creators and backers.
+🤓 Your contributions are vital to the development of Automatisch. As an open-source software, anyone can have an impact on how it is being developed.
 
+💙 No vendor lock-in. If you ever decide that Automatisch is no longer helpful for your business, you can switch to any other provider, which will be easier than switching from the one cloud provider to another since you have all data and flexibility.
 
+## Documentation
 
+The official documentation can be found here: [https://automatisch.io/docs](https://automatisch.io/docs)
 
+## Installation
 
-## Features
+```bash
+# Clone the repository
+git clone https://github.com/automatisch/automatisch.git
 
-- **Decentralized**: No central authority controls the platform. It operates fully on smart contracts.
-- **Transparency**: All transactions and campaign details are recorded on the blockchain, ensuring complete transparency.
-- **Security**: Funds are securely held in smart contracts until the campaign goals are met.
-- **Ease of Use**: Simple interface for creating campaigns and contributing to them.
-- **Global Accessibility**: Anyone with a blockchain wallet can participate from anywhere in the world.
+# Go to the repository folder
+cd automatisch
 
-## Technology Stack
-
-- **Frontend**: React.js, TypeScript
-- **Smart Contracts**: Solidity
-- **Blockchain**: Ethereum (Testnet/Mainnet)
-- **Development Tools**: Truffle/Hardhat, MetaMask
-- **Storage**: IPFS (InterPlanetary File System) for decentralized file storage
-- **UI/UX**: Tailwind CSS
-
-## Setup Instructions
-
-1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/your-username/crowdfunding-platform.git
-   cd crowdfunding-platform
-   ```
-
-2. **Install Dependencies**
-   ```bash
-   npm install
-   ```
-
-3. **Configure Environment Variables**
-   Create a `.env` file in the root directory and add your environment variables:
-   ```bash
-   REACT_APP_INFURA_PROJECT_ID=your_infura_project_id
-   REACT_APP_CONTRACT_ADDRESS=your_deployed_contract_address
-   REACT_APP_NETWORK=your_network (e.g., ropsten, rinkeby)
-   ```
-
-4. **Compile and Deploy Smart Contracts**
-   ```bash
-   npx hardhat compile
-   npx hardhat run scripts/deploy.js --network your_network
-   ```
-
-5. **Start the Frontend**
-   ```bash
-   npm start
-   ```
-
-6. **Access the Platform**
-   Open your web browser and navigate to `http://localhost:3000`.
-
-## Usage
-
-### Creating a Campaign
-1. Connect your wallet using MetaMask.
-2. Click on "Create Campaign."
-3. Enter campaign details: title, description, funding goal, and deadline.
-4. Confirm the transaction to deploy the campaign smart contract.
-
-### Contributing to a Campaign
-1. Browse available campaigns.
-2. Select a campaign and click "Contribute."
-3. Enter the amount you wish to contribute.
-4. Confirm the transaction via MetaMask.
-
-### Withdrawing Funds
-- Campaign creators can withdraw funds only if the funding goal is met within the deadline. 
-- Backers can claim refunds if the campaign does not reach its goal.
-
-## Project Structure
-
-- `contracts/`: Contains Solidity smart contracts.
-- `scripts/`: Deployment scripts for smart contracts.
-- `src/`: React.js frontend source code.
-- `test/`: Test files for smart contracts.
-- `artifacts/`: Compiled contract artifacts.
-- `public/`: Static assets for the frontend.
-
-
-
-
-## Repository Structure
-
-```sh
-└── crowdFunding/
-    ├── README.md
-    ├── client
-    │   ├── .gitignore
-    │   ├── LICENSE.md
-    │   ├── README.md
-    │   ├── index.html
-    │   ├── package-lock.json
-    │   ├── package.json
-    │   ├── postcss.config.js
-    │   ├── src
-    │   │   ├── App.jsx
-    │   │   ├── assets
-    │   │   │   ├── create-campaign.svg
-    │   │   │   ├── dashboard.svg
-    │   │   │   ├── index.js
-    │   │   │   ├── loader.svg
-    │   │   │   ├── logo.svg
-    │   │   │   ├── logout.svg
-    │   │   │   ├── menu.svg
-    │   │   │   ├── money.svg
-    │   │   │   ├── payment.svg
-    │   │   │   ├── profile.svg
-    │   │   │   ├── search.svg
-    │   │   │   ├── sun.svg
-    │   │   │   ├── thirdweb.png
-    │   │   │   ├── type.svg
-    │   │   │   └── withdraw.svg
-    │   │   ├── components
-    │   │   │   ├── CountBox.jsx
-    │   │   │   ├── CustomButton.jsx
-    │   │   │   ├── DisplayCampaigns.jsx
-    │   │   │   ├── FormField.jsx
-    │   │   │   ├── FundCard.jsx
-    │   │   │   ├── Loader.jsx
-    │   │   │   ├── Navbar.jsx
-    │   │   │   ├── Sidebar.jsx
-    │   │   │   └── index.js
-    │   │   ├── constants
-    │   │   │   └── index.js
-    │   │   ├── context
-    │   │   │   └── index.jsx
-    │   │   ├── index.css
-    │   │   ├── main.jsx
-    │   │   ├── pages
-    │   │   │   ├── CampaignDetails.jsx
-    │   │   │   ├── CreateCampaign.jsx
-    │   │   │   ├── Home.jsx
-    │   │   │   ├── Profile.jsx
-    │   │   │   └── index.js
-    │   │   └── utils
-    │   │       └── index.js
-    │   ├── tailwind.config.js
-    │   ├── vite.config.js
-    │   └── yarn.lock
-    └── web3
-        ├── .gitignore
-        ├── README.md
-        ├── contracts
-        │   └── CrowdFunding.sol
-        ├── hardhat.config.js
-        ├── package-lock.json
-        ├── package.json
-        └── yarn.lock
+# Start
+docker compose up
 ```
 
+You can use `user@automatisch.io` email address and `sample` password to login to Automatisch. Please do not forget to change your email and password from the settings page.
 
+For other installation types, you can check the [installation](https://automatisch.io/docs/guide/installation) guide.
 
+## Community Links
+
+- [Discord](https://discord.gg/dJSah9CVrC)
+- [Twitter](https://twitter.com/automatischio)
+
+## Support
+
+If you have any questions or problems, please visit our GitHub issues page, and we'll try to help you as soon as possible.
+
+[https://github.com/automatisch/automatisch/issues](https://github.com/automatisch/automatisch/issues)
+
+## License
+
+Automatisch Community Edition (Automatisch CE) is an open-source software with the [AGPL-3.0 license](LICENSE.agpl).
+
+Automatisch Enterprise Edition (Automatisch EE) is a commercial offering with the [Enterprise license](LICENSE.enterprise).
+
+The Automatisch repository contains both AGPL-licensed and Enterprise-licensed files. We maintain a single repository to make development easier.
+
+All files that contain ".ee." in their name fall under the [Enterprise license](LICENSE.enterprise). All other files fall under the [AGPL-3.0 license](LICENSE.agpl).
+
+See the [LICENSE](LICENSE) file for more information.
