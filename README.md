@@ -24,34 +24,16 @@ docker compose up
 
 You can use `user@automatisch.io` email address and `sample` password to login to Automatisch. Please do not forget to change your email and password from the settings page.
 
-
-## Demo
-
-Make 2 simultaneous terminals 
-
-```bash
-gcc server.c
-```
-```bash                                
-gcc populate.c
-```
-
-and then while the server is running run 
-```bash
-gcc client.c 
-```
-first create an admin and then create a user 
-
-After that we can access the user side and the admin side of the programme
-## Features
-
-- Concurrent Access to users
-- Socet connection and real time update
-- Handling multiple admins and users 
-- Portable 
+For other installation types, you can check the [installation](https://automatisch.io/docs/guide/installation) guide.
 
 
-## Link
+## License
 
-- [Project Link](https://github.com/Hemang-2004/Library-Management-System-)
+[MIT](https://choosealicense.com/licenses/mit/)
 
+
+## Acknowledgements
+
+ - [automatisch](https://github.com/automatisch/automatisch)
+ - [Awesome README](https://github.com/matiassingers/awesome-readme)
+ - [README](https://README.so)
